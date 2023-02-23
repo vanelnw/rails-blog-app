@@ -81,7 +81,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/AbeeraTahir/Blog-App.git
+  git clone https://github.com/vanelnw/rails-blog-app.git
 ```
 
 ### Install
