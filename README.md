@@ -81,7 +81,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-  git clone https://github.com/AbeeraTahir/Blog-App.git
+  git clone https://github.com/vanelnw/rails-blog-app.git
 ```
 
 ### Install
@@ -139,6 +139,16 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project and want to support me make cooler projects Give this project a Star.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank :
+- Abeera Tahir 
+- Microverse Team
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
