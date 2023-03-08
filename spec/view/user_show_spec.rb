@@ -41,15 +41,6 @@ RSpec.describe 'User show page', type: :feature do
     expect(page).to have_link('See All Posts', href: user_posts_path(user_id: @user.id))
   end
 
-  # it "should redirect to that post's show page" do
-  #     # click_link(@first_post.text)
-  #     # expect(page).to have_current_path(user_post_path(user_id: @user.id, id: @first_post.id))
-
-  #     post = @user.posts.first
-  # click_link post.text
-  # expect(current_path).to eq(user_post_path(user_id: @user.id, id: @first_post.id))
-  # end
-
   it 'should redirects to all posts show page.' do
     click_link 'See All Posts'
     expect(page).to have_current_path(user_posts_path(user_id: @user.id))
