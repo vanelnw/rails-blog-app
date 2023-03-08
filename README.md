@@ -3,7 +3,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Blog App ](#blog-app)
+- [Blog-App ](#blog-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -13,10 +13,11 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage ](#usage-)
-  - [👥 Authors ](#-authors-)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -111,6 +112,13 @@ To run the project, execute the following command:
 
 - GitHub: [@Vanelnw](https://github.com/vanelnw)
 - LinkedIn: [Vanel Nwaba](https://www.linkedin.com/va-nw)
+
+
+👤 **ITALO**
+
+- GitHub: [@storres20](https://github.com/storres20)
+- Twitter: [@italolonkan](https://twitter.com/italolonkan)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/italo-lon-kan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
