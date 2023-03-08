@@ -25,5 +25,22 @@ RSpec.describe "post show page" , type: :feature do
       it 'should displays the number of comments' do
         expect(page).to have_content(@post.comments_counter)
       end
+      
+      it 'should displays the number of likes' do
+        expect(page).to have_content(@post.likes_counter)
+      end
   
+      it 'should displays post text' do
+        expect(page).to have_content(@post.text)
+      end
+  
+      it 'should displays name of commenters' do
+        expect(page).to have_content(@user1.name)
+        expect(page).to have_content(@user2.name)
+      end
+  
+      it 'should displays content of comments' do
+        expect(page).to have_content(@first_comment.text)
+        expect(page).to have_content(@second_comment.text)
+      end
 end
