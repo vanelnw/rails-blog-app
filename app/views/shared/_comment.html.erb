@@ -4,6 +4,9 @@
   <% post.comments.each do |comment| %>
     <ul class="border-black ">
       <li><%= comment.author.name %>: <%= comment.text %></li>
+      <% if can? :destroy, comment %>
+        <%= button_to "Delete Comment", user_post_comment(user_id: @post.author.id, post_id: @post.id, comment_id: comment.id), method: :delete, data: { confirm: "Are you sure?" } %>
+      <% end %>
     </ul>
   <% end %>
 <% end %>

@@ -1,4 +1,6 @@
 class PostsController < ApplicationController
+  load_and_authorize_resource
+
   def index
     @user = User.find(params[:user_id])
     @posts = @user.posts.order(created_at: :asc)
@@ -25,6 +27,12 @@ class PostsController < ApplicationController
   def show
     @post = Post.find(params[:id])
     @like = Like.new
+  end
+
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy
+    redirect_to user_posts_path(current_user), notice: 'Post was successfully deleted.'
   end
 
   private
