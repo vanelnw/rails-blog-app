@@ -27,6 +27,13 @@ class PostsController < ApplicationController
     @like = Like.new
   end
 
+  def destroy
+    @post = Post.find(params[:id])
+    authorize! :destroy, @post
+    @post.destroy
+    redirect_to user_posts_path(current_user), notice: 'Post was successfully deleted.'
+  end
+
   private
 
   def post_params
