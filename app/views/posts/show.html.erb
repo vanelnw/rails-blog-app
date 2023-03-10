@@ -16,4 +16,8 @@
       <button type="button" class="btn"><%= link_to "Add a comment", new_user_post_comment_path(user_id: @post.author.id, post_id: @post.id)  %></button>
   </div>
 
+  <% if can? :destroy, @post %>
+    <%= button_to "Delete", user_post_path(user_id: @post.author.id, post_id: @post.id), method: :delete, data: { confirm: "Are you sure?" } %>
+  <% end %>
+
 </div>
