@@ -11,8 +11,6 @@ RSpec.describe 'User index page', type: :feature do
 
     @users = [user1, user2, user3]
 
-    # allow(User).to receive(:all).and_return(@users)
-
     visit users_path
   end
 
