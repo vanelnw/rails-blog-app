@@ -56,6 +56,7 @@ The Blog app is a classic example of a blog website. It is a fully functional we
 
 - User can see a list of posts
 - User can like and comment on posts
+- API RESTful
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
